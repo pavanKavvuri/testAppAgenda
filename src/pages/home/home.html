@@ -1,18 +1,314 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color = 'nav'>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title style=" text-align:center">Home</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h3>Ionic Menu Starter</h3>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  
+  
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+  <!--{{visitor | json}}-->
+  <!--ion-item *ngIf="visitor">
+    Name <p>{{visitor.name}}</p>
+    Designation <p>{{visitor.designation}}</p>
+    Organization <p>{{visitor.organisation}}</p>
+    <h2>Welcome to {{visitor.visiting_office}}, {{visitor.location}}. </h2>
+  </ion-item-->
+
+
+<ion-grid>
+  <ion-row>
+      
+    <ion-col col-20> </ion-col>
+    <ion-col col-20 style="
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+"> </ion-col> 
+
+    <ion-col col-20 style="
+   padding-bottom: 0px;
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-left: 0px;
+   top: 31px;
+   width:80px;
+   height:80px;
+   left: 10px;
+   right: 0px;
+   "
+    > <div class="centered"><img src="./assets/icon/menu_icon.png" id="profile"style="
+    top: 9px;
+    left: 0px;
+    right: auto;
+"></div>
+   <div class="centered"style="
+    right: 1px;
+    left: 35px;
+    top: 57px;
+    width: 45px;
+    font-size:1rem;
+    " (click) = "events()" > Agenda </div>
+<img src="./assets/icon/icon1.png" (click) = "events()" style="
+    right: 0px;
+    left: 13px;
+    top: 12px;
+"id="events">
+
+
+</ion-col> 
+
+    <ion-col col-20 style="
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+width:80px;
+height:80px"> </ion-col>
+    <ion-col col-20> </ion-col> 
+  </ion-row>
+
+  <ion-row>
+    <ion-col col> </ion-col>
+    <ion-col col style="
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    left: 1px;
+    right: auto;
+    "><div class="centered"><img src="./assets/icon/menu_icon.png"  id="profile" style="left:6px;top:10px;"></div>
+   <div class="centered"style="
+    right: 0px;
+    left: 35px;
+    top: 52px;
+    width: 50px;
+    font-size:1rem;
+    text-align: center;
+    " (click) = "transport()">Transport Details</div>
+<img src="./assets/icon/icon2.png" id="events" style="left: 15px;right:0px;top:2px" (click) = "transport()"></ion-col>   
+    <ion-col col style="
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px; 
+    padding-left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 47px;
+    left: 15px;
+"> <img src="./assets/icon/profile.png" style="width:50px !important;
+  height:50px!important;"></ion-col>  
+    <ion-col col style="
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    left: 7px;
+    right: 3px;
+    bottom: 4px;
+    top: 1px;
+"><div class="centered"><img src="./assets/icon/menu_icon.png"  id="profile" style="left:6px;top:9px;"></div>
+<div class="centered" style="
+    right: 0px;
+    left: 37px;
+    top: 51px;
+    width: 50px;
+    font-size:1rem;
+    text-align: center;
+    " (click) = "nearby()">Near By Places</div>
+<img src="./assets/icon/icon6.png" id="events" style="left:18px;right:0px;top:0px;bottom: auto;" (click) = "nearby()"></ion-col> 
+    <ion-col col> </ion-col> 
+  </ion-row>
+
+  <ion-row>
+    <ion-col col> </ion-col>
+    <ion-col col style="
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    top: 22px;
+    bottom: 0px;
+    left: 0px;
+    right: 4px;
+    ">
+  <div class="centered"> <img src="./assets/icon/menu_icon.png"  id="profile" style="left: 7px;bottom: 1px;top: 34px;"></div>
+   <div class="centered"style="
+    right: 0px;
+    left: 41px;
+    top:40px;
+    width: 50px;
+    font-size:1rem;
+    text-align: center;
+    bottom: 0px;
+    " (click) = "contact()">Contact</div>
+<img src="./assets/icon/icon3.png" (click) = "contact()" id="events"style="
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    left: 18px;
+">
+</ion-col> 
+    <ion-col col style="
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    right: auto;
+    left: 3px;
+"> </ion-col>  
+     <ion-col col style="
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    top: 22px;
+    bottom: 7px;
+    left: 7px;
+    right:0px;
+">
+ <div class="centered"><img src="./assets/icon/menu_icon.png"  id="profile" style="
+   
+    top: 34px;
+    left: 6px;
+    bottom: 0px;
+"></div>
+<div class="centered"style="
+    right: 0px;
+    left: 41px;
+    top: 53px;
+    width: 50px;
+    font-size:1rem;
+    text-align: center;
+    " (click) = "tourist()">Tourist Places</div>
+<img src="./assets/icon/icon5.png" id="events" (click) = "tourist()" style="
+    right: 0px;
+    bottom: auto;
+    top: 0px;
+    left: 17px;
+"></ion-col>   
+    <ion-col col> </ion-col> 
+  </ion-row>
+
+  <ion-row>
+    <ion-col col-20> </ion-col>
+    <ion-col col-20 style="
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+"> </ion-col>  
+     <ion-col col-20 style="
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+bottom: 1px;
+    right: 1px;
+    top:36px;">
+   <div class="centered">   <img src="./assets/icon/menu_icon.png"  id="profile" style="
+    left: 11px;
+    top: 47px;
+">
+   </div>
+<div class="centered"style="
+    right: 1px;
+    left: 53px;
+    top: 60px;
+    width: 45px;
+    font-size:1rem;
+    " (click) = "help()"> Help </div>
+<img src="./assets/icon/icon4.png" (click) = "help()" id="events" style="
+    right: 0px;
+    left: 23px;
+"></ion-col>   
+    <ion-col col-20 style="
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+" ></ion-col>
+    <ion-col col-20> </ion-col>
+  </ion-row>
+
+</ion-grid>
+
+<!--div style = "position:relative">
+  <img class="imgA1" src="./assets/icon/menu_icon.png" style= "position:absolute;"/>
+  <img class="imgB1" src="./assets/icon/map_icon.png" style= "position:absolute;"/>
+</div-->
+
+ 
+
+
 </ion-content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--div class="row" style="height: 110px; ">
+            <div class="welcome col col-33" style="overflow: visible; height: 100px;">
+                 
+            </div>
+             <div class="jargon col col-33" style="overflow: visible; height: 100px; ">
+                <img src="./assets/icon/menu_icon.png" ui-sref="jargon"/>
+            </div>
+            <div class="jargon col col-33" style="overflow: visible; height: 100px; ">
+                
+            </div>
+             
+</div>
+
+<div class="row" style="height: 110px; ">
+            <div class="welcome col col-33" style="overflow: visible; height: 100px;">
+                <img src="./assets/icon/menu_icon.png" ui-sref="welcome"/>
+            </div>
+             <div class="jargon col col-33" style="overflow: visible; height: 100px; ">
+                
+            </div>
+            <div class="jargon col col-33" style="overflow: visible; height: 100px; ">
+                <img src="./assets/icon/menu_icon.png" ui-sref="jargon"/>
+            </div>
+             
+</div>
+
+<div class="row" style="height: 110%; ">
+            <div class="welcome col col-33" style="overflow: visible; height: 100px;">
+                <img src="./assets/icon/menu_icon.png" ui-sref="welcome"/>
+            </div>
+             <div class="jargon col col-33" style="overflow: visible; height: 100px; ">
+                
+            </div>
+            <div class="jargon col col-33" style="overflow: visible; height: 100px; ">
+                <img src="./assets/icon/menu_icon.png" ui-sref="jargon"/>
+            </div>
+             
+</div>
+<div class="row" style="height: 110px; ">
+            <div class="welcome col col-33" style="overflow: visible; height: 100px;">
+                
+            </div>
+             <div class="jargon col col-33" style="overflow: visible; height: 100px; ">
+                <img src="./assets/icon/menu_icon.png" ui-sref="jargon"/>
+            </div>
+            <div class="jargon col col-33" style="overflow: visible; height: 100px; ">
+               
+            </div>
+             
+</div-->

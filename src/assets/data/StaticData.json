@@ -1,0 +1,368 @@
+{ 
+    "visitor": { 
+        "name": "Dr. VOLKER MAYER",
+        "designation": "Head go Allianz Global ",
+        "organisation": "Allianz",
+        "location": "Bangalore,KN",
+        "start_date": "17 June 2017",
+        "end_date": "18 June 2017",
+        "visiting_office": "TCS Pioneer"
+    },
+    "help_content": {
+        "wifi_id": "asd",
+        "wifi_password": "adasf",
+        "wifi_ssid": "tcs_pioneer"
+    },
+    "transport_details": [
+        { 
+            "name": "Mr. ABC",
+            "phone": "+919002376587",
+            "vehicle_maker": "Swift Dzire",
+            "vehicle_class": "LMV Car",
+            "vehicle_number": "KA03 MJ1012"
+        }
+    ],
+    "emergency_contacts": [
+        {
+            "type": "EMERGENCY",
+            "name": "police",
+            "phone": "100"
+        }
+    ],
+    "contacts": [
+        {
+            "type": "TCS",
+            "name": "asd",
+            "designation": "Delivery head",
+            "phone": "+919037465368",
+            "email": "ab@casc.com"
+        }
+        
+    ],
+    "events": [
+        {
+            "date": "12 Dec 2017",
+            "sessions": [
+                {
+                    "type": "normal",
+                    "start_time": "12:30 PM",
+                    "end_time": "02:00 PM",
+                    "duration": "90 Min",
+                    "session_heading":"Lunch",
+                    "session_content": "",
+                    "conference_room":"GANDHARA CONFERENCE ROOM"
+                },
+                {
+                    "type": "normal",
+                    "start_time": "02:00 PM",
+                    "end_time": "02:15 PM",
+                    "duration": "15 Min",
+                    "session_heading":"Transfer to TCS Pioneer Office from Hotel",
+                    "session_content": "",
+                    "conference_room":"GANDHARA CONFERENCE ROOM" 
+                },
+                {			 
+                    "type": "normal",
+                    "start_time": "02:15 PM",
+                    "end_time": "02:30 PM",
+                    "duration": "15 Min",
+                    "session_heading":"Welcome",
+                    "session_content": "",
+                    "conference_room":"GANDHARA CONFERENCE ROOM"
+                },  
+                {
+                    "type": "normal",
+                    "start_time": "02:30 PM",
+                    "end_time": "03:00 PM",
+                    "duration": "30 Min",
+                    "session_heading":"Introduction; Visit Objectives",
+                    "session_content":"Introduction; Update from Anton on the visit objectives; Agenda walkthrough",
+                    "conference_room":"GANDHARA CONFERENCE ROOM"
+                },
+                {
+                    "type": "normal",
+                    "start_time": "03:00 PM",
+                    "end_time": "04:00 PM",
+                    "duration": "60 Min",
+                    "session_heading":"Application Maintenance & Operations: Session 1",
+                    "session_content":"Overview, Journey; 2017 Delivery Dashboard; Key Achievements; 2017 Inflow trend and resolution; risks",
+                    "conference_room":"GANDHARA CONFERENCE ROOM"
+                },
+                {		 	
+                    "type": "break",
+                    "start_time": "04:00 PM",
+                    "end_time": "04:30 PM",
+                    "duration": "30 Min",
+                    "session_heading":"Break",
+                    "session_content":"",
+                    "conference_room":"GANDHARA CONFERENCE ROOM"
+                },
+                {		 	
+                    "type": "normal",
+                    "start_time": "04:30 PM",
+                    "end_time": "05:30 PM",
+                    "duration": "60 Min",
+                    "session_heading":"AGCS – Supporting the Business – Meeting the team",
+                    "session_content":"Meet the Maintenance, Business Enhancement and SMO Project Teams",
+                    "conference_room":"GANDHARA CONFERENCE ROOM"
+                },
+                {		 	
+                    "type": "normal",
+                    "start_time": "05:30 PM",
+                    "end_time": "06:30 PM",
+                    "duration": "60 Min",
+                    "session_heading":"Application Maintenance & Operations: Session 2",
+                    "session_content":"Stabilization; Automation; Cognitive Maintenance; DevOps; Collaboration between AM, GSD and SMO team ; Business process/Service improvement, Helpdesk Operation and Improvements",
+                    "conference_room":"GANDHARA CONFERENCE ROOM"
+                },
+                {		 	
+                    "type": "break",
+                    "start_time": "06:30 PM",
+                    "end_time": "06:45 PM",
+                    "duration": "15 Min",
+                    "session_heading":"Drop to the Hotel",
+                    "session_content":"",
+                    "conference_room":"GANDHARA CONFERENCE ROOM"
+                },
+                {		 	
+                    "type": "normal",
+                    "start_time": "07:30 PM",
+                    "end_time": "09:30 PM",
+                    "duration": "120 Min",
+                    "session_heading":"Dinner",
+                    "session_content":"",
+                    "conference_room":"GANDHARA CONFERENCE ROOM"
+                }
+
+            ]
+        },
+        {
+            "date": "13 Dec 2017",
+            "sessions": [
+                {			  
+                    "type": "normal",
+                    "start_time": "09:15 AM",
+                    "end_time": "09:30 AM",
+                    "duration": "15 Min",
+                    "session_heading":"Transfer to TCS Pioneer Office from Hotel",
+                    "session_content": "",
+                    "conference_room":""
+                },
+                {			
+                    "type": "normal",
+                    "start_time": "09:30 AM",
+                    "end_time": "10:45 AM",
+                    "duration": "75 Min",
+                    "session_heading":"2018 Plan and Approach",
+                    "session_content": "Plan for 2018, Target Architecture and Roadmap, Discussion on modularize landscape using and engaging the Group’s emerging architecture (ADP, containers, CISL)",
+                    "conference_room":""
+                },
+                {				
+                    "type": "normal",
+                    "start_time": "10:45 AM",
+                    "end_time": "11:30 AM",
+                    "duration": "45 Min",
+                    "session_heading":"Test Data Management",
+                    "session_content": "AGCS current testing scenario, industry best practices and what can we adopt",
+                    "conference_room":""
+                },  
+                {
+                    "type": "normal",
+                    "start_time": "02:30 PM",
+                    "end_time": "03:00 PM",
+                    "duration": "30 Min",
+                    "session_heading":"Introduction; Visit Objectives",
+                    "session_content":"Introduction; Update from Anton on the visit objectives; Agenda walkthrough",
+                    "conference_room":""
+                },
+                {		 	
+                    "type": "break",
+                    "start_time": "11:30 AM",
+                    "end_time": "11:45 AM",
+                    "duration": "15 Min",
+                    "session_heading":"Break",
+                    "session_content":"",
+                    "conference_room":""
+                },
+                {				
+                    "type": "normal",
+                    "start_time": "11:45 AM",
+                    "end_time": "12:45 PM",
+                    "duration": "60 Min",
+                    "session_heading":"AGCS – Transforming Business – Meeting the team",
+                    "session_content":"Meet the Global Genius, EIM, BIH, Testing and Rapid Automation Project Teams; Digital Lab",
+                    "conference_room":""
+                },
+                {		 	
+                    "type": "normal",
+                    "start_time": "05:30 PM",
+                    "end_time": "06:30 PM",
+                    "duration": "60 Min",
+                    "session_heading":"Application Maintenance & Operations: Session 2",
+                    "session_content":"Stabilization; Automation; Cognitive Maintenance; DevOps; Collaboration between AM, GSD and SMO team ; Business process/Service improvement, Helpdesk Operation and Improvements",
+                    "conference_room":""
+                },
+                {		 	
+                    "type": "break",
+                    "start_time": "12:45 PM",
+                    "end_time": "1:30 PM",
+                    "duration": "45 Min",
+                    "session_heading":"Lunch Break",
+                    "session_content":"",
+                    "conference_room":""
+                },
+                {		 	
+                    "type": "normal",
+                    "start_time": "01:30 PM",
+                    "end_time": "02:30 PM",
+                    "duration": "60 Min",
+                    "session_heading":"Townhall with TCS AGCS Team",
+                    "session_content":"",
+                    "conference_room":""
+                },
+                {		 	
+                    "type": "break",
+                    "start_time": "02:30 PM",
+                    "end_time": "",
+                    "duration": "",
+                    "session_heading":"Drop to the Airport",
+                    "session_content":"",
+                    "conference_room":""
+                }
+
+            ]
+        },
+        {
+            "date": "14 Dec 2017",
+            "sessions": [
+                {					 
+                    "type": "normal",
+                    "start_time": "09:00 AM",
+                    "end_time": "09:30 AM",
+                    "duration": "30 Min",
+                    "session_heading":"Transfer to TCS Siruseri Office from Hotel",
+                    "session_content": "",
+                    "conference_room":""
+                },
+                {						
+                    "type": "normal",
+                    "start_time": "09:30 AM",
+                    "end_time": "11:00 AM",
+                    "duration": "90 Min",
+                    "session_heading":"Session with TCS CTO Mr. K Ananth Krishnan",
+                    "session_content": "",
+                    "conference_room":""
+                },
+                {							
+                    "type": "break",
+                    "start_time": "11:00 AM",
+                    "end_time": "11:30 AM",
+                    "duration": "30 Min",
+                    "session_heading":"Break",
+                    "session_content": "",
+                    "conference_room":""
+                },  
+                {  			
+                    "type": "normal",
+                    "start_time": "11:30 AM",
+                    "end_time": "12:30 PM",
+                    "duration": "60 Min",
+                    "session_heading":"Pega team in action – Floor walk of large Pega delivery",
+                    "session_content":"Meet the PEGA transformation team of a large Insurance company",
+                    "conference_room":""
+                },
+                {						
+                    "type": "break",
+                    "start_time": "12:30 PM",
+                    "end_time": "02:00 PM",
+                    "duration": "90 Min",
+                    "session_heading":"Lunch with TCS BFSI Head",
+                    "session_content":" ",
+                    "conference_room":""
+                },
+                {					
+                    "type": "normal",
+                    "start_time": "02:00 PM",
+                    "end_time": "03:00 PM",
+                    "duration": "60 Min",
+                    "session_heading":"Glimpse of Agile Delivery – Floor walk",
+                    "session_content":"Agile Transformation of a large US customer",
+                    "conference_room":""
+                },
+                {		 			 
+                    "type": "break",
+                    "start_time": "03:00 PM",
+                    "end_time": "03:15 PM",
+                    "duration": "15 Min",
+                    "session_heading":"Break",
+                    "session_content":"",
+                    "conference_room":""
+                },
+                {						
+                    "type": "normal",
+                    "start_time": "03:15 PM",
+                    "end_time": "04:15 PM",
+                    "duration": "60 Min",
+                    "session_heading":"Design Thinking Session @ Design Lab",
+                    "session_content":" ",
+                    "conference_room":""
+                },
+                {						
+                    "type": "break",
+                    "start_time": "04:15 PM",
+                    "end_time": "04:30 PM",
+                    "duration": "15 Min",
+                    "session_heading":"Break ",
+                    "session_content":"",
+                    "conference_room":""
+                },
+                {					 	
+                    "type": "normal",
+                    "start_time": "04:30 PM",
+                    "end_time": "05:00 PM",
+                    "duration": "30 Min",
+                    "session_heading":"Insurance Industry Transformation  - Analytics",
+                    "session_content":"",
+                    "conference_room":""
+                },
+                {	
+                    "type": "normal",
+                    "start_time": "05:00 PM",
+                    "end_time": "05:30 PM",
+                    "duration": "30 Min",
+                    "session_heading":"AGCS – TCS Relationship",
+                    "session_content":"TCS perspective and how we can take it forward to the next level",
+                    "conference_room":""	
+                },
+                {				
+                    "type": "normal",
+                    "start_time": "05:30 PM",
+                    "end_time": "06:00 PM",
+                    "duration": "30 Min",
+                    "session_heading":"Wrap-up Session",
+                    "session_content":""	,
+                    "conference_room":""	
+                },
+                {							
+                    "type": "normal",
+                    "start_time": "06:00 PM",
+                    "end_time": "06:30 PM",
+                    "duration": "30 Min",
+                    "session_heading":"Drop to the Hotel",
+                    "session_content":"",
+                    "conference_room":""		
+                },
+                {										
+                    "type": "normal",
+                    "start_time": "07:30 PM",
+                    "end_time": "09:30 PM",
+                    "duration": "120 Min",
+                    "session_heading":"Dinner",
+                    "session_content":""	,
+                    "conference_room":""	
+                }
+
+            ]
+        }
+    ]
+}

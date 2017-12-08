@@ -1,0 +1,83 @@
+<ion-header>
+  <ion-navbar color = 'nav'>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Transport Details</ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+
+<ion-content padding>
+<!--ion-list *ngIf="drivers.length>0">
+
+  <div *ngFor="let driver of drivers">
+    <ion-item>
+
+          Name <p>{{driver.name}}</p>
+          Phone <p>{{driver.phone}}</p>
+    </ion-item>
+
+    <ion-item>
+
+        <span item-left>Vehicle Maker <p>{{driver.vehicle_maker}}</p></span>
+
+        <span item-right>Vehicle class <p>{{driver.vehicle_class}}</p></span>
+       
+    </ion-item>
+
+    <ion-item>
+       Vehicle Number <p>{{driver.vehicle_number}}</p>
+    </ion-item>
+    
+  </div>
+</ion-list-->
+
+<h5 style="color: white"> Driver Information</h5>
+
+
+ <ion-list *ngIf="drivers.length>0">
+
+      <div *ngFor="let driver of drivers">
+
+              <ion-card>
+
+                      <!--ion-card-header>
+                          Driver Information
+                      </ion-card-header-->
+
+                      <ion-card-content style="padding-left: 0px; padding-right: 0px;">
+
+                                          <ion-item>
+                                                <p id = "head">Driver</p> <h2 id = "txt" style="padding-bottom: 10px">{{driver.name}}</h2>
+                                                <p id = "head">Contact Number</p> <h2 id = "txt">{{driver.phone}}</h2>
+                                          </ion-item>
+
+                                          <ion-item>
+        
+                                              <span item-left><p id = "head">Vehicle Maker</p> <h2 id = "txt">{{driver.vehicle_maker}}</h2></span>
+
+                                              <span item-right><p id = "head">Vehicle class</p> <h2 id = "txt">{{driver.vehicle_class}}</h2></span>
+                                            
+                                          </ion-item>
+
+                                          <ion-item>
+                                            <p id = "head">Vehicle Number</p> <h2 id = "txt">{{driver.vehicle_number}}</h2>
+                                          </ion-item>
+
+                        </ion-card-content>   
+
+            </ion-card>                      
+      </div>
+
+
+</ion-list>
+                
+               
+
+
+
+
+ 
+
+</ion-content> 

@@ -1,3 +1,87 @@
 page-home {
 
+ 
+.col{
+ 
+  max-width:none!important;
+ 
+}
+
+.col img {
+  height:80px!important;
+width:80px!important;
+  //padding-left: 100px;
+  //margin: auto;
+  align-self: left;
+   max-width:none!important;
+}
+img{
+  max-width:none!important;
+}
+.grid {
+    padding-top: 100px;
+    //padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+ .toolbar-title-wp{
+       padding-left: 0px;
+    padding-right:40px;
+ }
+  .toolbar-title-md{
+     padding-left: 0px;
+    padding-right: 30px;
+  }
+.scroll-content{
+  background: url('../assets/icon/bg_landing.png') no-repeat center center fixed;
+}
+ 
+#profile{
+  width:80px !important;
+  height:80px!important;
+
+		position:relative;
+		top: 10px;
+		left: 10px;
+		z-index: 1;
+}
+.agenda{
+  color:white;
+ font-size:1rem;
+
+  padding-left: 24px;
+  height: 40px!important;
+  width: 80px!important;
+padding-bottom: 30px!important;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+  
+#events{
+  position:absolute;
+		top: 25px;
+		left: 25px;
+    z-index: 2;
+    width:40px!important;
+    height:40px!important;
+    top: 14px;
+    right: auto;
+    left: 31px;
+
+}
+
+ 
+
 }

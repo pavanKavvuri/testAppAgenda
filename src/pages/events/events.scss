@@ -1,0 +1,134 @@
+page-events {
+
+.scroll-content{
+  background: url('../assets/icon/bg_landing.png') no-repeat center center fixed;
+   margin-top: 44px;
+   padding-left: 10px;
+  
+}
+
+.arrow col{
+    height: 46px!important;
+    width: 30px!important;
+}
+.col{
+    width:100px!important;
+    padding-top:0px!important;
+}
+.column{
+   width: 20px!important;
+   height:28px!important;
+  border: 0;
+           -webkit-transform: rotate(180deg);
+
+            /* Firefox */
+            -moz-transform: rotate(180deg);
+
+            /* IE */
+            -ms-transform: rotate(180deg);
+
+            transform: rotate(180deg);
+
+            /* Internet Explorer */
+            filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=4);
+}
+.column2 {
+  width: 20px!important;
+height: 28px!important;
+ 
+  
+}
+.agenda-segment{
+  width:90px!important;
+   background-color: #4e3c5f;
+   border-radius: 20px;
+   border-style: none!important;
+height:30px!important;
+
+}
+.segment-ios .segment-button{
+  border-style: none!important;  
+}
+.card-header-ios {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #f4f4f4;
+justify-content: center;}
+.agenda{
+    border-style: none!important;
+    width:165px!important;
+     border-radius: 20px;
+    background-color:#2fa3ca;
+height:30px!important;
+
+}
+ ion-card-header {
+    background-color:#EAEDED;
+}
+   .card-footer{
+      text-align: center;
+    color:#2fa3ca;
+     background-color:#EAEDED;
+       color:#2fa3ca;
+       font-weight: bold;
+      
+}
+    ion-card-content{
+        text-align: center;
+        font-size: 1rem;
+        text-orientation: sideways-right;
+       
+    height: 84px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+
+    }
+.title title-wp{
+padding-left: 90px;
+font-family:'Myriad Pro';
+}
+toolbar-title toolbar-title-md{
+padding-left: 96px;
+
+}
+toolbar-title toolbar-title-wp{
+padding-left: 96px;
+}
+    .rotate{
+       /* Safari */
+            -webkit-transform: rotate(180deg);
+
+            /* Firefox */
+            -moz-transform: rotate(180deg);
+
+            /* IE */
+            -ms-transform: rotate(90deg);
+
+            transform: rotate(270deg);
+
+            /* Internet Explorer */
+            filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+   }
+.list-ios{
+    background: url('../assets/img/bg_landing.png') no-repeat center center fixed;
+
+}
+.session_heading{width: 255px;
+        font-size:  1rem;
+   color:#00BCD4;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+.session_content{
+    width: 255px;
+        font-size: 0.8rem;
+   color:#303F9F;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+   }

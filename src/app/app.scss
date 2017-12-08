@@ -14,3 +14,118 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+// c3 config 
+ 
+    .c3 path, .c3 line{ 
+         stroke: #ECEFF1;
+         //stroke: black;
+         font-size: 1.2rem;
+    }
+
+    .c3 path{
+        stroke-width: 0.1rem;
+    }
+
+    .tick text, text{
+        fill: #ECEFF1;
+        //fill: black;
+    }
+
+// ...........................
+$background-color: #283593;   //#  3b4c75     283593
+$border-color: #7b7c7c;
+$radio-selection-color: #007ab3;
+
+.center-align{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.radio-md{
+    .radio-checked{
+        //border-color: white !important;
+        .radio-inner{
+           // background-color: white !important;
+        }
+    }
+}
+
+.radio-ios{
+    .radio-checked{
+        //border-color: white !important;
+        .radio-inner{
+            //background-color: white !important;
+            //border-color: white !important;
+        }
+    }
+}
+
+.item-radio-checked{
+    background: $radio-selection-color !important;
+    border-left: 4px solid #43cae6 !important;
+    .item-inner{
+        .input-wrapper {
+            .label {
+                    //color: white;
+                }
+        }
+    } 
+}
+
+.circular-image{
+    padding-top: 50px;
+    border-radius: 40%;
+    height: 50%;
+    width: 50%
+     
+}
+
+.sidebar-toolbar{
+    text-align: center !important;
+    .toolbar-title{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .toolbar-title-md{
+        width: 50%;
+        margin: auto;
+    }
+    .toolbar-background{
+        border: none;
+    }
+}
+
+.sidebar-content{
+    //padding-top: 150px;
+    background: $background-color;
+}
+
+.sidebar-item{
+    //padding-top: 
+    background: transparent;
+    color: white;
+}
+
+.group-list-item{
+     
+    //border-top: 1px solid $border-color !important;
+}
+
+.group-list-item-last{
+    border-bottom: 1px solid $border-color !important;
+}
+
+.footer-img-container{
+    // position: absolute;
+    // bottom:0;
+    width: 100%;
+    overflow: hidden;
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+}

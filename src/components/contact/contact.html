@@ -1,0 +1,12 @@
+
+<div *ngIf='contact.type=="TCS"'>
+ Name <p>{{contact.name}}</p>
+ Designation<p>{{contact.designation}}</p>
+ Phone <p>{{contact.phone}}</p>
+ Email <p>{{contact.email}}</p>
+</div>
+
+<div *ngIf='contact.type=="EMERGENCY"'>
+ Name <p>{{contact.name}}</p>
+ Phone <p>{{contact.phone}}</p>
+</div>

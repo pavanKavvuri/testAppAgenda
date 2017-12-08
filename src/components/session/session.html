@@ -1,0 +1,15 @@
+
+<div *ngIf='session.type=="break"'>
+  Start Time<p>{{session.start_time}}</p>
+  Duration<p>{{session.duration}}</p> 
+  End Time<p>{{session.end_time}}</p>
+ Event <p><b>{{session.session_heading}}</b></p>
+</div>
+<div *ngIf='session.type=="normal"'>
+   Start Time<p>{{session.start_time}}</p>
+  Duration<p>{{session.duration}}</p> 
+  End Time<p>{{session.end_time}}</p>
+ Event <p><b>{{session.session_heading}}</b></p>
+ content <p>{{session.session_content}}</p>
+  Conference Room<p>{{session.conference_room}}</p>
+</div>

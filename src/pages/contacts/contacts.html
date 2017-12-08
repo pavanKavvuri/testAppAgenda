@@ -1,0 +1,86 @@
+
+<ion-header>
+  <ion-navbar color = 'nav'>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Contacts</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+ 
+<!--ion-list *ngIf="contacts.length>0">
+  <h4>TCS Contacts</h4>
+  <ion-item *ngFor="let contact of contacts">
+    <contact [contact]="contact"></contact>
+  </ion-item>
+</ion-list>
+
+<ion-list *ngIf="emergencyContacts.length>0">
+  <h5 style="color:white">Emergency Contacts</h5>
+  <ion-item *ngFor="let contact of emergencyContacts">
+    <contact [contact]="contact"></contact>
+  </ion-item>
+</ion-list-->
+
+<h5 style="color: white"> TCS Contacts</h5>
+
+        <ion-list *ngIf="contacts.length>0">
+                   <!--h4>TCS Contacts</h4-->
+            <div *ngFor="let contact of contacts">
+                    <!--contact [contact]="contact"></contact-->
+
+                <ion-card>
+                          <!--ion-card-header> 
+                            TCS Contacts
+                          </ion-card-header-->
+
+                            <ion-card-content>
+
+                                    <p id = "head">Name</p> <h2 id = "txt" style="padding-bottom: 5px">{{contact.name}}</h2>
+                                    <p id = "head">Designation</p> <h2 id = "txt">{{contact.designation}}</h2>
+                                    <p id = "head">Phone</p> <h2 id = "txt" style="padding-bottom: 5px">{{contact.phone}}</h2>
+                                    <p id = "head">Email</p> <h2 id = "txt">{{contact.email}}</h2>
+
+                            </ion-card-content>
+                </ion-card>
+
+
+               </div>
+          </ion-list>
+                
+              
+
+
+
+
+          <!--ion-card-header>
+           Emergency Contacts
+          </ion-card-header-->
+
+<h5 style="color: white"> Emergency Contacts</h5>
+
+<ion-list *ngIf="emergencyContacts.length>0">    
+
+       
+                     
+                        
+                        <!--h5 style="color:white">Emergency Contacts</h5-->
+                        <div *ngFor="let emcontact of emergencyContacts">
+         <ion-card>                   <!--contact [contact]="contact"></contact-->
+                       <ion-card-content>
+                          <p id = "head">Name</p> <h2 id = "txt" style="padding-bottom: 5px">{{emcontact.name}}</h2>
+                          <p id = "head">Phone</p> <h2 id = "txt">{{emcontact.phone}}</h2>
+                      </ion-card-content>
+         </ion-card>      
+                        </div>
+                      
+        
+</ion-list>
+                
+                
+
+</ion-content>

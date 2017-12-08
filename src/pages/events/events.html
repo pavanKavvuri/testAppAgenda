@@ -1,0 +1,210 @@
+
+<ion-header>
+  <ion-navbar color="nav">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Agenda</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <div *ngIf="event!={}">
+  <ion-grid>
+    <ion-row>
+     <ion-col col-1>
+     </ion-col>
+     <ion-col col-1>
+     </ion-col>
+    
+    <ion-col col-1>
+  <div class="column" > <img src="./assets/icon/arrow_right.png"  style="
+    width: 20px;
+    height: 28px;
+" (click)="getDate(1)" ></div>
+</ion-col>
+
+<ion-col  col-6 style="
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    
+  ">
+<div class="agenda">
+<ion-segment mode='ios' [(ngModel)]="segment" color='light'>
+    <ion-segment-button >
+        {{this.selectedDate}}
+      </ion-segment-button>
+</ion-segment>
+ </div>
+</ion-col>
+
+<ion-col col-1>
+  <div class="column2">
+    <img src="./assets/icon/arrow_right.png" style="
+    width: 20px;
+    height: 28px;
+" (click)="getDate(2)"></div>
+</ion-col> 
+
+    </ion-row>
+  </ion-grid>
+
+
+
+
+  <ion-grid>
+    <ion-row row-xs-3>
+     <div *ngIf="sessions.length>0">
+   <div *ngFor="let session of sessions">   
+<ion-card  style="
+        margin-left: 0px;
+    margin-right: 15px;
+    width: 330px;
+    border-radius: 10px;
+    border-style: none!important;
+">
+      <ion-card-header style="
+    padding-bottom: 0px;
+    height: 45px;
+">
+        
+
+
+
+    <ion-row>
+     
+    <ion-col col-1 style="
+    left: auto;
+    right: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    top: auto;
+    bottom: 10px;
+">
+  <div item-left >
+            <p  style="color:#00BCD4;
+            font-size:1rem;
+            ">Start Time</p>
+          
+        
+           <p style="color:#303F9F">{{session.start_time}}</p>
+          </div>
+</ion-col>
+         <ion-col col-3 style="left:25px;">
+         </ion-col>
+
+<ion-col col-5 style="
+    padding-right: 0px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+ bottom:8px;"  text-center >
+  <div class="agenda-segment">
+  <ion-segment mode='ios' [(ngModel)]="segment" color='light'>
+  
+    <ion-segment-button>
+   {{session.duration}}
+      </ion-segment-button>
+      
+      </ion-segment>
+</div>
+</ion-col>
+ 
+<ion-col col-1 item-right style="
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    right: 0px;
+    left: 15px;
+    bottom: 10px;
+">
+
+    
+ <p  style="color:skyblue;
+            font-size:1rem;
+            ">End Time</p>
+        
+         
+           <p style="color:#303F9F">{{session.end_time}}</p>
+         
+</ion-col>
+
+    </ion-row>
+ 
+
+      </ion-card-header>
+      <ion-card-content >
+         <ion-row style="
+    width: 250px;
+">
+    <ion-col width-10 style="
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    left: auto;
+    right: 27px;
+    top: 30px;
+"><div class= "rotate" style="
+    height: 15px;
+    width: 40px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color:#303F9F;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 0.9rem;">SESSION</div></ion-col>
+              <ion-col width-90 style="
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    right: 105px;
+    top: 5px;
+">
+                
+                <p class="session_heading">{{session.session_heading}}</p>
+                <div item-left>
+                <p class="session_content " >{{session.session_content}}</p>
+                </div></ion-col>
+          </ion-row>
+
+       
+      </ion-card-content>
+      <div class="card-footer">
+          <p style="font-size: 1rem;
+    color: #2fa3ca;">{{session.conference_room}}</p>
+  
+      </div>
+    </ion-card>
+      </div>
+</div>   
+    
+    </ion-row>
+ </ion-grid>
+
+ </div> 
+</ion-content>
+
+
+    
+<!--ion-list *ngIf="event!={}">
+  
+  <ion-item *ngFor="let days of event; let i = index;" (click)="selectDate(i)">
+    
+    <p *ngIf="days.date==selectedDate"><b>{{days.date}}</b></p>
+    <p *ngIf="days.date!=selectedDate">{{days.date}}</p>
+
+    
+  </ion-item>
+  <ion-list *ngIf="sessions.length>0">
+  <ion-item *ngFor="let session of sessions">
+    <session [session]="session"></session>
+  </ion-item>
+  </ion-list>
+</ion-list>
+</ion-card-content>
+  </ion-card>
+</ion-col-->
+
+    

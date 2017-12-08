@@ -1,0 +1,27 @@
+<ion-header>
+  
+            
+        
+  <ion-navbar color="nav">
+      <button ion-button menuToggle left>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+   <div class="title">
+     Tourist Places
+   </div>
+    
+  </ion-navbar>
+ 
+</ion-header>
+
+<ion-content padding>
+<div>
+  <ion-title> Places in Bangalore</ion-title>
+    
+    <carousel [slides]="slides" ></carousel>
+</div>
+  <div>
+    <div class="title1"> Places in Chennai</div>
+    <carousel [slides]="slides1" ></carousel>
+  </div>
+</ion-content>
